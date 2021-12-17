@@ -8,10 +8,10 @@ import android.content.SharedPreferences
 import android.content.pm.PackageManager
 import android.hardware.display.DisplayManager
 import android.os.Bundle
-import android.support.v4.app.NotificationCompat
-import android.support.v7.app.AppCompatActivity
+import androidx.core.app.NotificationCompat
 import android.view.Display
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 
 lateinit var sharedPrefs: SharedPreferences
 lateinit var editor: SharedPreferences.Editor

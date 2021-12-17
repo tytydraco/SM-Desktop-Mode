@@ -7,12 +7,11 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Build
 import android.provider.Settings
-import android.support.v4.content.ContextCompat
-import android.support.v7.app.AlertDialog
+import androidx.core.content.ContextCompat
 import android.view.Display
 import android.widget.Toast
 import android.content.IntentFilter
-
+import androidx.appcompat.app.AlertDialog
 
 
 const val sizeName = "display_size_forced"

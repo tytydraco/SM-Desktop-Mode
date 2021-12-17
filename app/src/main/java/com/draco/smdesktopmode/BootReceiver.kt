@@ -8,8 +8,8 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.renderscript.RenderScript
-import android.support.v4.app.NotificationCompat
-import android.support.v4.app.NotificationCompat.PRIORITY_HIGH
+import androidx.core.app.NotificationCompat
+import androidx.core.app.NotificationCompat.PRIORITY_HIGH
 import android.util.Log
 import com.draco.smdesktopmode.R.mipmap.ic_launcher
 import android.R.attr.name
